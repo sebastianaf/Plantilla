@@ -1,0 +1,27 @@
+h1{
+    background-color:turquoise;
+    text-align: center;
+}
+
+body{
+    background-color: teal;
+}
+
+#miSuperTitulo{
+    font-size: 50px;
+}
+
+.imagenesIntro{
+    width: 280px;
+    display: block;
+}
+
+a:hover{
+    color: chocolate;
+    font-size: 20px;
+    font-style: italic;
+}
+
+img:hover{
+    width: 320px;
+}
