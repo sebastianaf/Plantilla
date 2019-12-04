@@ -1,11 +1,11 @@
 *{
-    margin: auto;
+    margin: auto;    
 }
 
 p{
-    margin: 40px;
     border: 2px solid black;
-    padding: 40px;
+    padding: 20px;
+    margin: 20px;
 }
 
 h1{
@@ -20,19 +20,18 @@ body{
 
 #miSuperTitulo{
     font-size: 50px;
-    padding: 15px;
+    padding: 20px;
 }
 
 .hiper{
-    display: inline;
-    padding: 40px;
-    margin-bottom: 5    0px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .imagenesIntro{
     width: 280px;
+    margin-top: 20px;
     display: block;
-    margin-top: 50px ;
 }
 
 a:hover{
