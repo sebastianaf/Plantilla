@@ -24,14 +24,14 @@ body{
 }
 
 .hiper{
-    margin-left: 20px;
-    margin-right: 20px;
+    margin: 1%;
 }
 
 .imagenesIntro{
     width: 280px;
     margin-top: 20px;
     display: block;
+    
 }
 
 a:hover{
@@ -42,4 +42,58 @@ a:hover{
 
 img:hover{
     width: 320px;
+}
+
+.texto{
+    display: block;
+}
+
+.cuadro1{
+    width: 180px;
+    height: 180px;
+    border: 2px solid black;
+    padding: 2%;
+    background-color: rgba(139, 146, 45, 0.5);
+    margin: 5%;    
+
+    position: static;
+}
+.cuadro2{
+    width: 180px;
+    height: 180px;
+    border: 2px solid black;
+    padding: 2%;
+    background-color: rgba(45, 106, 146, 0.5);
+    margin: 5%; 
+    
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+}
+.cuadro3{
+    width: 180px;
+    height: 180px;
+    border: 2px solid black;
+    padding: 2%;
+    background-color: rgba(129, 72, 25, 0.5);
+    margin: 5%; 
+    
+    position: relative;
+    left: 40px;
+    top: 40px;
+
+}
+.cuadro4{
+    width: 180px;
+    height: 180px;
+    border: 2px solid black;
+    padding: 2%;
+    background-color: rgba(129, 25, 106, 0.5);
+    margin: 5%;  
+    
+    position: absolute;
+    top: 40px;
+    right: 40px;
+
 }
