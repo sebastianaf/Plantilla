@@ -51,52 +51,78 @@ img:hover{
 .cuadro1{
     width: 180px;
     height: 180px;
-    border: 2px solid black;
-    padding: 2%;
-    background-color: rgba(139, 146, 45, 0.5);
-    margin: 5%;    
+    border: black solid 2px;
+    padding: 40px;
+    background-color: rgba(97, 163, 35, 0.5);
+
+    margin: 20px;
+
+
+    font-family: fantasy;
+    font-size: 20px;
 
     position: static;
 }
 .cuadro2{
     width: 180px;
     height: 180px;
-    border: 2px solid black;
-    padding: 2%;
-    background-color: rgba(45, 106, 146, 0.5);
-    margin: 5%; 
-    
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
+    border: black solid 2px;
+    padding: 40px;
+    background-color: rgba(35, 69, 163, 0.5);
 
-}
-.cuadro3{
-    width: 180px;
-    height: 180px;
-    border: 2px solid black;
-    padding: 2%;
-    background-color: rgba(129, 72, 25, 0.5);
-    margin: 5%; 
-    
-    position: relative;
-    left: 40px;
-    top: 40px;
+    margin: 20px;
 
     font-family: fantasy;
     font-size: 20px;
 
+    position: relative;
+    top: 20px;
+    left: 40px;
 }
+.cuadro3{
+    width: 180px;
+    height: 180px;
+    border: black solid 2px;
+    padding: 40px;
+    background-color: rgba(163, 35, 157, 0.5);
+
+    margin: 20px;
+
+    font-family: fantasy;
+    font-size: 20px;
+
+    position: fixed;
+    bottom: 20px;
+    right: 40px;
+}
+
 .cuadro4{
     width: 180px;
     height: 180px;
-    border: 2px solid black;
-    padding: 2%;
-    background-color: rgba(129, 25, 106, 0.5);
-    margin: 5%;  
-    
+    border: black solid 2px;
+    padding: 40px;
+    background-color: rgba(207, 105, 45, 0.5);
+
+    margin: 20px;
+
+    font-family: fantasy;
+    font-size: 20px;
+
     position: absolute;
     top: 40px;
     right: 40px;
+}
+.flotante{
+    width: 180px;
+    height: 180px;
+    border: black solid 2px;
+    padding: 40px;
+    background-color: rgba(45, 207, 94, 0.5);
 
+    margin: 20px;
+
+    font-family: fantasy;
+    font-size: 20px;
+
+    float: right;
 }
